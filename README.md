@@ -15,6 +15,6 @@ Starter project from a GraphQL course by Stephen Grider on Udemy.com
 
 # Tools
 
--   Dotenv for hiding environment (MongoDB user access) variables
-    **npm install dotenv**
+-   ### Dotenv for hiding environment (MongoDB user access) variables
+-   **npm install dotenv**
 -   https://appdividend.com/2019/06/06/what-is-process-env-in-node-js-environment-variables-in-node-js/
