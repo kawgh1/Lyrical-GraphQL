@@ -39,6 +39,13 @@ Starter project from a GraphQL course by Stephen Grider on Udemy.com
                     );
                 };
 
+# GraphQL + Apollo + React Strategy
+
+-   1.) Identify data required
+-   2.) Write query in GraphiQL Dashboard (for practice) and in component file
+-   3.) Bond query + component
+-   4.) Access data!
+
 # Tools
 
 -   ### Dotenv for hiding environment (MongoDB user access) variables
