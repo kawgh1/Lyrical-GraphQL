@@ -22,21 +22,22 @@ Starter project from a GraphQL course by Stephen Grider on Udemy.com
         -   The **Apollo Provider** is what takes data from the Apollo Store and sends it to our React App on the front end client side - it is the glue layer
         -   Most of the Apollo Setup and Configuration is around the **Apollo Provider**
 
-            index.js
+                index.js
 
-            // GraphQL + Apollo
-            import ApolloClient from "apollo-client";
-            import { ApolloProvider } from "react-apollo";
+                // GraphQL + Apollo
+                import ApolloClient from "apollo-client";
+                import { ApolloProvider } from "react-apollo";
 
-            const client = new ApolloClient({});
+                const client = new ApolloClient({});
 
-            const Root = () => {
-            return (
-            <ApolloProvider client={client}>
-            <div>Lyrical</div>
-            </ApolloProvider>
-            );
-            };
+                const Root = () => {
+
+                return (
+                    <ApolloProvider client={client}>
+                        <div>Lyrical</div>
+                    </ApolloProvider>
+                    );
+                };
 
 # Tools
 
